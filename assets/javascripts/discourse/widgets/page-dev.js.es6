@@ -28,7 +28,6 @@ export default createWidget('page-dev', {
  title = topics[t].title;
  slug = topics[t].slug; 
  id = topics[t].id; 
- detal = topics[t].excerpt;  
  like_count = topics[t].like_count;
  views = topics[t].views;
  posts_count = topics[t].posts_count;
@@ -39,7 +38,7 @@ export default createWidget('page-dev', {
 
 
 <div class="title-t"><a href="/t/${slug}/${id}" class="title">${title}</a></div>
-<div class="topic-excerpt"><font style="font-size: 80%;"> ${detal} <br>
+<div class="topic-excerpt"><font style="font-size: 80%;">
 <i class="fa fa-heart-o d-icon d-icon-heart" aria-hidden="true"></i> ${like_count} &nbsp; &nbsp; 
 <i class="fa fa-eye" aria-hidden="true"></i> ${views} &nbsp; &nbsp; 
 <i class="fa fa-comments-o d-icon d-icon-reply" aria-hidden="true"></i> ${posts_count}
