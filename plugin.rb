@@ -4,6 +4,7 @@
 # authors:  Evg
 # url: https://github.com/Toxu-ru/discourse-test
 
+register_asset "stylesheets/test.scss"
 
 Discourse::Application.routes.append do
   get '/dev' => 'discourse_dev/dev#my_page'
